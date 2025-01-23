@@ -1,11 +1,11 @@
-function mostrarAlerta() {
-    saludar("¡Hola!");
+function saludar() {
+    alert("¡Hola!");
     segundaFuncion();
     }
-function mostrar(){
-    despedirse("¡Adios!");
+function despedirse(){
+    alert("¡Adios!");
     segundaFuncion();
 }
-function segundaFuncion(){
-    emoji(";-)")
+function emoji(){
+    alert(";-)")
 }
