@@ -1,4 +1,4 @@
-Pedir prueba() {
+function prueba() {
     let nombre;
     let edad;
     nombre =prompt(" ¿Cómo te llamas? ");
