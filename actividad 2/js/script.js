@@ -1,10 +1,10 @@
 function saludar() {
     alert("¡Hola!");
-    segundaFuncion();
+    emoji();
     }
 function despedirse(){
     alert("¡Adios!");
-    segundaFuncion();
+    emoji();
 }
 function emoji(){
     alert(";-)")
