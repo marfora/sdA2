@@ -1,5 +1,5 @@
 function Comprobar() {
-    let calificar= Parse
+    let nota= Parse
     if(temp > 15 && temp < 30){
     document.getElementById("parrafo1").innerHTML = "Hace Bueno";
      document.getElementById("parrafo1").style.color = "green";
