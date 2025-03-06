@@ -2,13 +2,12 @@ function Comprobar() {
     let nota= parseFloat(document.getElementById("nota").value);
     let resultado= document.getElementById("resultado");
     if(nota) || nota < 0 || nota < 10){
-    resultado.innerText = "El número que has puesto no es válido";
+   document.getElementById("resultado").innerHTML = "El número que has puesto no es válido";
    }
      else if (nota < 5) {
-      resultado.innerText = "Suspenso";
+     document.getElementById("resultado").innerHTML = "Suspenso";
      }
      else{
-   resultado.innerText = "Aprobado";
+ document.getElementById("resultado").innerHTML = "Aprobado";
      }
-
      }
